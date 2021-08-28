@@ -1,5 +1,15 @@
+html, body {
+  background-color: #E5E5E5;
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+}
+
 .navbar {
   padding: 0px 100px 0px 100px;
+  background-color: #F4F3EE;
 }
 
 h1 {
@@ -21,6 +31,20 @@ h1 {
   width: 264px;
   height: 263px;
   margin: 25px;
+  background-color: #F4F3EE;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.068);
+          box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.068);
+}
+
+.card-3, .card-8 {
+  background-color: white;
+  border: 3px solid #C32C72;
+}
+
+.card-6 {
+  background-color: #C32C72;
+  border: 3px solid white;
 }
 
 footer {
@@ -30,7 +54,11 @@ footer {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: #d4d4d4;
-  color: white;
+  background-color: #F4F3EE;
+  color: black;
+}
+
+footer p {
+  margin: 1rem;
 }
 /*# sourceMappingURL=style.css.map */
