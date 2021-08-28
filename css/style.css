@@ -12,6 +12,10 @@ html, body {
   background-color: #F4F3EE;
 }
 
+.navbar-toggler {
+  border: none;
+}
+
 h1 {
   text-align: center;
   margin: 80px;
