@@ -1,4 +1,27 @@
-body {
-    background-color: red;
+.navbar {
+  padding: 0px 100px 0px 100px;
 }
 
+h1 {
+    text-align: center;
+    margin: 80px;
+    font-size: 34px;
+}
+
+.row {
+    display: flex;
+    justify-content: center
+}
+
+.card {
+    width: 264px;
+    height:263px;
+    margin: 25px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(212, 212, 212);
+    color: white;
+}
