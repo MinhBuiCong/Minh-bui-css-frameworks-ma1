@@ -8,12 +8,16 @@ html, body {
 }
 
 .navbar {
-  padding: 0px 100px 0px 100px;
   background-color: #F4F3EE;
+  padding: 0px;
 }
 
-.navbar-toggler {
-  border: none;
+.navbar a {
+  margin: 1rem;
+}
+
+.navbar li {
+  color: #C32C72;
 }
 
 h1 {
